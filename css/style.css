@@ -1,32 +1,47 @@
-body{
-   background-color: #000000; 
-   width: 100%;
+hml, body, div, canvas{
+     width: 100%;
+    padding: 0;
+    margin: 0;
+	display: block;
+}
+canvas{
+	display: block;
 }
 #gradient
 {
   width: 100%;
   height: 100vh;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   position: absolute;	
 }
 .tits{
 	font-size: 120px;
-	padding-top: 250px;
+	padding-top: 25vh;
 	text-align: center;
-	font-family: 'Monoton', cursive;
+	font-family: 'Megrim', cursive;
 	color: black;
 }		
 .sub{
+	text-shadow:6px 6px 8px red;
 	font-size: 40px;
-	font-family: 'Poiret One', cursive;
+	font-family: 'Megrim', cursive;
 	color: black;
 }
+.sub1{
+	font-size: 100px;
+	font-family: 'Megrim', cursive;
+	color: black;
+}
+
 .tits:hover, .sub:hover{
 	color: white;
 }
-
+.sub1:hover{
+	color: red;
+}
 .container-fluid{
+  width: 100%;
   background:transparent;
   text-align:center;
   height: 100vh;
@@ -35,6 +50,111 @@ body{
 
 .row{
 	height: 100vh;
-	width: 100%;
+	width: 101.5%;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+li {
+    display: inline;
+	font-size: 200%;
+	font-family: 'Megrim', cursive;
+	text-decoration:none;	
+	font-weight:1000;
+}
+
+a {
+    padding: 18px;
+	color: black;
+}
+li a:hover {
+    /*background-color: crimson;*/
+	color: white;
+	text-decoration:none;
+}
+.rama{
+	padding-top: 5vh;
+    text-align: center;
+}
+.duce:hover{
+box-shadow:2px 2px 3px red;
+	color: red;
+}
+.duce2:hover{
+box-shadow:2px 2px 3px blue;
+	color: blue;
+}.duce3:hover{
+box-shadow:2px 2px 3px yellow;
+	color: yellow;
+}
+.duce1:hover{
+box-shadow:2px 2px 3px crimson;
+	color:crimson;
+}
+
+.duce22:hover{
+	color: blue;
+}.duce33:hover{
+	color: yellow;
+}
+.duce11:hover{
+	color:crimson;
+}
+
+
+
+.col-md-12{
+	width: 100.0%;
+}
+
+.footppad{
+	padding-top: 8%;
+}
+
+i:hover{
+color:white;
+}
+header{
+    background-color: rgba(31,31,31,0.75);
+}
+.overlay{
+    background-image: url(../img/concert.jpeg) ; 
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: rgba(31, 31, 31, 0.7);
+    background-color: rgb(31,31,31);
+    background-size: cover;
+    height: 400px;
+}
+
+
+
+.events p{
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    color: crimson;
+    font-size: 50px;
+    margin-top: 10%;
+    text-transform: uppercase;
+}
+
+
+img{
+    width: 100%;
+    height: 200px;
+    
+}
+
+
+
+
+
+
+
+
+
 
